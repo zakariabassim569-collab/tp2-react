@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# TP2 - React Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my TP2 project for the **DevAppFrontEnd** course in S3 - CDL (2026/2027) at ESTL.
 
-## Available Scripts
+In this TP, I practiced creating React components and using props to display dynamic content.
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+- React
+- JavaScript
+- HTML
+- CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Exercises
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Exercise 1: Functional Component
+Created a `Message` component that displays a welcome message using props. It also displays a special message for the Admin user.
 
-### `npm test`
+### Exercise 2: Class Component
+Created a `CompteurClass` component using the React class component syntax.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Exercise 3: Props for Styles
+Created a `Bouton` component that receives text and background color through props.
 
-### `npm run build`
+### Exercise 4: Conditional Rendering
+Created a `Connexion` component that displays a different message depending on the user's connection status.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Exercise 5: Rendering a List
+Created a `ListeTaches` component that displays a list of tasks using the JavaScript `.map()` method and unique keys.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Exercise 6: Conditional Rendering with `&&`
+Created a `Notification` component that displays a notification badge when the number is greater than zero.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshot
 
-### `npm run eject`
+![TP2 React Interface](./Screenshot%202026-10-29%20.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## What I Learned
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Creating and exporting React components
+- Passing data with props
+- Using functional and class components
+- Applying inline styles with props
+- Conditional rendering with `if`, `else` and `&&`
+- Displaying lists with `.map()` and using unique `key` props
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+Bassim Zakaria
+Software Development Student - ESTL 🇲🇦
